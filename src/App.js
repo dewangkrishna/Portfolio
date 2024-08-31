@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import Navbar from './components/navbar';
+import AboutMe from './components/aboutme';
+import Skills from './components/skills';
+import Projects from './components/projects';
+import Certificates from './components/certificate';
+import Sidebar from './components/bar';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import Footer from './components/footer';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+
+      {/* <Sidebar/> */}
+      <Navbar />
+      <section id="about-me" className="min-h-screen bg-black p-8">
+              <AboutMe/>
+      </section>
+
+      <section id="skills" className="min-h-screen bg-black p-8">
+        <Skills/>
+      </section>
+
+      <section id="projects" className="min-h-screen bg-black p-8">
+      <Projects/>
+      </section>
+
+      <section id="certifications" className="min-h-screen bg-black p-8">
+        <Certificates/>
+      </section>
+      <Footer/>
     </div>
   );
 }
