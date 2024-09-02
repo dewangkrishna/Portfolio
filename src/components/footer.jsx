@@ -29,17 +29,14 @@ const Footer = () => {
         <div className="flex flex-col items-center mt-8">
           <h3 className="text-lg font-semibold mb-4">Follow Me</h3>
           <div className="flex space-x-4">
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/dewangkrishna" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github text-gray-400 hover:text-white transition-colors text-2xl"></i>
             </a>
-            <a href="https://x.com/yourusername" target="_blank" rel="noopener noreferrer">
-              {/* Use image for the X logo */}
-              <img src="x-logo.png" alt="X Logo" className="w-6 h-6 text-gray-400 hover:text-white transition-colors" />
-            </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+            
+            <a href="https://www.linkedin.com/in/dewang-krishna-1b0939238/" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-linkedin text-gray-400 hover:text-blue-500 transition-colors text-2xl"></i>
             </a>
-            <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/dewang_krishna/?utm_source=qr " target="_blank" rel="noopener noreferrer">
               <i className="fab fa-instagram text-gray-400 hover:text-pink-500 transition-colors text-2xl"></i>
             </a>
           </div>

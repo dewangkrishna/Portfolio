@@ -39,9 +39,10 @@ const Navbar = () => {
           <div className="md:hidden">
             <button
               onClick={toggleMobileMenu}
-              className="text-white hover:text-black px-3 py-2 rounded-md text-lg font-medium"
+              className="text-white hover:text-black px-3 py-2 rounded-md text-lg font-medium focus:outline-none"
+              aria-label="Toggle navigation menu"
             >
-              Menu
+              {isMobileMenuOpen ? 'Close' : 'Menu'}
             </button>
           </div>
         </div>
