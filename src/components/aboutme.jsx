@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-
 const AboutMe = () => {
   const [scrolled, setScrolled] = useState(false);
 
@@ -53,7 +52,8 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-    </section>
+      </section>
+    
   );
 };
 
